@@ -2,16 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Var&Function_Script1 : MonoBehaviour
-{
-   {   
-    int myInt = 5;
+public class VarandFunctionScript1 : MonoBehaviour
+{   
+    int myInt = 10;
     
     
     void Start ()
     {
         myInt = MultiplyByTwo(myInt);
-        Debug.Log (myInt);
+        Debug.Log(myInt);
     }
     
     
@@ -21,5 +20,4 @@ public class Var&Function_Script1 : MonoBehaviour
         result = number * 2;
         return result;
     }
-}
 }
